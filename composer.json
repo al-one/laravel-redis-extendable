@@ -1,0 +1,24 @@
+{
+    "name": "al-one/laravel-redis-extendable",
+    "description": "Laravel RedisManager Extendable",
+    "keywords": ["laravel", "redis"],
+    "authors": [
+        {
+            "name": "Alone",
+            "email": "hi@anlo.ng"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "illuminate/contracts": "~5.4 <5.7",
+        "illuminate/support": "~5.4 <5.7",
+        "illuminate/redis": "~5.4 <5.7"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Alone\\LaravelRedisExtendable\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
