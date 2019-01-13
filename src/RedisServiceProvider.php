@@ -6,7 +6,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Redis\RedisServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
 
-class RedisExtendableServiceProvider extends RedisServiceProvider
+class RedisServiceProvider extends RedisServiceProvider
 {
 
     /**
