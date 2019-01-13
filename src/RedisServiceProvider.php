@@ -3,10 +3,10 @@
 namespace Alone\LaravelRedisExtendable;
 
 use Illuminate\Support\Arr;
-use Illuminate\Redis\RedisServiceProvider;
+use Illuminate\Redis\RedisServiceProvider as BaseRedisServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
 
-class RedisServiceProvider extends RedisServiceProvider
+class RedisServiceProvider extends BaseRedisServiceProvider
 {
 
     /**
