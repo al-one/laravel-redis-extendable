@@ -32,6 +32,15 @@ return [
 ];
 ```
 
+```php
+use Illuminate\Support\Facades\Redis;
+
+Redis::extend('predis_listened',function()
+{
+    return new \Alone\LaravelPredisListened\PredisListenedConnector;
+});
+```
+
 
 ## License
 
