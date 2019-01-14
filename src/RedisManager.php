@@ -36,7 +36,7 @@ class RedisManager extends BaseRedisManager
      */
     protected function callCustomCreator($driver)
     {
-        return $this->customCreators[$driver]($this->app);
+        return $this->customCreators[$driver]($this->app, $this->config);
     }
 
     /**
