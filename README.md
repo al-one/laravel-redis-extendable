@@ -7,6 +7,13 @@
 
 ## Installing
 
+```
+# composer.json
+
+"minimum-stability": "dev",
+"prefer-stable": true,
+```
+
 ```sh
 # Laravel 5.4 - 5.6
 $ composer require "al-one/laravel-redis-extendable:~1.5.4" -vvv
